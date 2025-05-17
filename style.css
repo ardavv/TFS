@@ -72,6 +72,7 @@ body {
     top: 0;
     left: 0;
     z-index: 1;
+    background: white;
     /* biar di atas gambar bawah */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     /* biar ada efek kedalaman */   
