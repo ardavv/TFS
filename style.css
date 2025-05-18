@@ -41,6 +41,12 @@ body {
     border-radius: 5px;
     text-decoration: none;
 }
+
+.cta-btn:hover {
+    background-color: #5d68d4;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
 /* --- */
 
 /* --- */
@@ -244,3 +250,26 @@ body {
     margin-bottom: 0.5rem;
     color: black; }
 /* --- */
+
+/* RESPONSIVE */
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text {
+        max-width: 100%;
+    }
+
+    .hero-image {
+        width: 90%;
+        height: auto;
+        margin-top: 2rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
