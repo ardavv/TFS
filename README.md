@@ -2,7 +2,7 @@
 
 ## Studi Kasus: nama branch
 - BacaBareng (perpustakaan digital): bacabareng
-- KopiKata (Cafe pelajar): kopikita
+- KopiKata (Cafe pelajar): kopikata
 - MindQuest (Escape Room): mindquest
 - ReSkin (Marketplace skincare / makeup): reskin
 
