@@ -7,7 +7,7 @@
 - ReSkin (Marketplace skincare / makeup): ReSkin
 
 ## Cara pakai:
-- Buat folder untuk studi kasus
+- Buat folder untuk studi kasus di Desktop
 - Di dalam folder, buka terminal dan ketikkan
   ```bash
   git clone https://github.com/ardavv/TFS.git
