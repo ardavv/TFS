@@ -1,10 +1,10 @@
 # Website Studi Kasus TFS Android 2025
 
 ## Studi Kasus: nama branch
-- BacaBareng (perpustakaan digital): bacabareng
+- BacaBareng (perpustakaan digital): BacaBareng
 - KopiKata (Cafe pelajar): kopikata
 - MindQuest (Escape Room): mindquest
-- ReSkin (Marketplace skincare / makeup): reskin
+- ReSkin (Marketplace skincare / makeup): ReSkin
 
 ## Cara pakai:
 - Buat folder untuk studi kasus
@@ -22,7 +22,7 @@
 - Semua asset yang dibutuhkan untuk tiap studi kasus ada di folder "assets" masing - masing branch. Contoh penggunaan:
   ``` html
   <img src="assets/gambar1.png" class="gambar"></img>
-- Selesai, tiap kelompok sudah bisa membuat website sesuai kasus mereka masing - masing
+- Selesai, tiap kelompok sudah bisa membuat website sesuai studi kasus masing - masing
 
 ## Catatan:
 - 
