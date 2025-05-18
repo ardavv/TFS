@@ -1,27 +1,29 @@
 body {
     margin: 0;
+    /* font */
     font-family: 'Outfit', sans-serif;
 }
 
+/* --- */
+/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ddd;
+    /* BACKGROUND NAVBAR */
+    background: #D9D9D9;
     padding: 1rem 2rem;
 }
 
-.logo {
+.brand {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.logo-circle {
-    width: 30px;
-    height: 30px;
-    background: black;
-    border-radius: 50%;
+.logo-img {
+    width: 40px;
+    height: 40px;
 }
 
 .nav-links a {
@@ -30,14 +32,19 @@ body {
     color: black;
 }
 
+/* button call to action */
 .cta-btn {
-    background: #6366f1;
+    /* warna CTA */
+    background: #737FF1;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     text-decoration: none;
 }
+/* --- */
 
+/* --- */
+/* HERO */
 .hero {
     display: flex;
     justify-content: space-between;
@@ -77,6 +84,9 @@ body {
     /* biar ada efek kedalaman */   
     border-radius: 10px;
     /* biar cakep */
+
+    /* Warna gambar bawah */
+    background: #D9D9D9;
 }
 
 /* Gambar atas, geser ke kiri dan bawah */
@@ -96,8 +106,14 @@ body {
     /* biar ada efek kedalaman */
     border-radius: 10px;
     /* biar cakep */
-}
 
+    /* warna gambar atas */
+    background: #D9D9D9;
+}
+/* --- */
+
+/* --- */
+/* FEATURE */
 .features {
     padding: 3rem 2rem;
     text-align: center;
@@ -112,8 +128,9 @@ body {
 }
 
 .feature-item {
-    flex: 1 1 calc(33.333% - 2rem);
+    flex: 0 1 calc(33.333% - 2rem);
     /* max 3 per baris */
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,12 +138,11 @@ body {
 }
 
 .feature-item img {
-    width: 100%;
-    border-radius: 10px;
-    height: auto;
+    width: 300px;
+    height: 200px;
     object-fit: cover;
-    max-width: 400px;
-    /* biar gak terlalu gede */
+    border-radius: 10px;
+    background: #D9D9D9;
 }
 
 .feature-item p {
@@ -135,16 +151,13 @@ body {
     font-size: 0.95rem;
     color: #333;
 }
+/* --- */
 
+/* --- */
+/* TESTIMONI */
 .testimoni {
     padding: 3rem 2rem;
     text-align: center;
-}
-
-.testimoni-kartu {
-    height: 150px;
-    background: #ccc;
-    margin-bottom: 2rem;
 }
 
 .testimonial-list {
@@ -165,6 +178,7 @@ body {
     height: 120px;
     object-fit: cover;
     border-radius: 50%;
+    background: #D9D9D9;
 }
 
 .testimonial-item p {
@@ -179,7 +193,10 @@ body {
     background: #ccc;
     border-radius: 50%;
 }
+/* --- */
 
+/* --- */
+/* FAQ */
 .faq {
     padding: 3rem 2rem;
     background: #f5f5f5;
@@ -192,22 +209,27 @@ body {
 }
 
 .faq-item {
-    background: #ddd;
+    /* BACKGROUND FAQ */
+    background: #D9D9D9;
     padding: 1rem;
-    border-radius: 5px;
+    /* menumpulkan siku */
+    border-radius: 12px;
 }
+/* --- */
 
 .cta-final {
-    background: #6366f1;
-    color: white;
+    /* BACKGROUND CTA FINAL */
+    background: #737FF1 ;
     padding: 3rem 2rem;
     text-align: center;
 }
 
+/* --- */
+/* FOOTER */
 .footer {
     background: #ddd;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 2rem;
     flex-wrap: wrap;
 }
@@ -221,53 +243,4 @@ body {
     text-decoration: none;
     margin-bottom: 0.5rem;
     color: black; }
-
-
-/* Responsive styling */
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .nav-links {
-        margin-top: 1rem;
-    }
-
-    .hero {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .hero-text {
-        max-width: 100%;
-    }
-
-    .hero-image {
-        margin-top: 2rem;
-        width: 100%;
-        max-width: 300px;
-        height: auto;
-    }
-
-    .feature-list {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .testimoni-users {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .faq-list {
-        padding: 0 1rem;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: center;
-        gap: 2rem;
-    }
-}
+/* --- */
