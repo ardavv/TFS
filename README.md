@@ -8,7 +8,7 @@
 
 ## Cara pakai:
 - Buat folder untuk studi kasus di Desktop
-- Di dalam folder, buka terminal dan ketikkan
+- Di dalam folder, buka terminal (cmd atau terminal vscode) dan ketikkan
   ```bash
   git clone https://github.com/ardavv/TFS.git
   cd TFS
